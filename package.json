@@ -1,0 +1,30 @@
+{
+  "name": "staticexpresssite",
+  "version": "1.0.0",
+  "description": "A static express site to showcase a portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBROU/FS_js_Tech_Degree_Project_7.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "pug"
+  ],
+  "author": "Kody Broussard",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "pug": "^2.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/KBROU/FS_js_Tech_Degree_Project_7/issues"
+  },
+  "homepage": "https://github.com/KBROU/FS_js_Tech_Degree_Project_7#readme"
+}
