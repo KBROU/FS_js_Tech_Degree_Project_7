@@ -1,0 +1,61 @@
+{
+  "data":{
+    "projects": [
+            {
+                "id": "0",
+                "project_name": "Random Quote Generator",
+                "description": "Simple site that displays quotes",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "",
+                "github_link": "https://github.com/KBROU/FS_js_Tech_Degree_Project_1",
+                "image_urls": ["/static/images/rsz_fsjs_project_1_main.png", "/static/images/rsz_fsjs_project_1_ls.png", "/static/images/rsz_fsjs_project_1_ls_2.png"]
+
+            },
+            {
+              "id": "1",
+              "project_name": "Student Directory With Pagination Links",
+              "description": "Student directory that has a search function and pagination links that adapt to only display 10 students at a time.",
+              "technologies": ["JavaScript", "HTML", "CSS"],
+              "live_link": "",
+              "github_link": "https://github.com/KBROU/FS_js_Tech_Degree_Project_2",
+              "image_urls": ["/static/images/rsz_fsjs_project_2_main.png", "/static/images/rsz_fsjs_project_2_ls.png", "/static/images/rsz_fsjs_project_2_ls_2.png"]
+            },
+            {
+              "id": "2",
+              "project_name": "Interactive Form",
+              "description": "Interactive form for a Full Stack Developer Conference. The form does not allow submission if information is missing and it lets the user know what information is missing.",
+              "technologies": ["JavaScript", "HTML", "CSS"],
+              "live_link": "",
+              "github_link": "https://github.com/KBROU/FS_js_Tech_Degree_Project_3",
+              "image_urls": ["/static/images/rsz_fsjs_project_3_main.png", "/static/images/rsz_fsjs_project_3_ls.png", "/static/images/rsz_fsjs_project_3_ls_2.png"]
+            },
+            {
+              "id": "3",
+              "project_name": "Tic Tac Toe Game",
+              "description": "Version of Tic Tac Toe that has a computer player mode and player versus player mode. Computer player mode is using minimax algorithm to make it unbeatable",
+              "technologies": ["JavaScript", "HTML", "CSS"],
+              "live_link": "",
+              "github_link": "https://github.com/KBROU/FS_js_Tech_Degree_Project_4",
+              "image_urls": ["/static/images/rsz_fsjs_project_4_main.png", "/static/images/rsz_fsjs_project_4_ls.png", "/static/images/rsz_fsjs_project_4_ls_2.png"]
+            },
+            {
+              "id": "4",
+              "project_name": "Employee Directory",
+              "description": "Employee Directory created from a public API with search functionality.",
+              "technologies": ["JavaScript", "HTML", "CSS", "JSON", "APIs"],
+              "live_link": "",
+              "github_link": "https://github.com/KBROU/FS_js_Tech_Degree_Project_5",
+              "image_urls": ["/static/images/rsz_fsjs_project_5_main.png", "/static/images/rsz_fsjs_project_5_ls.png", "/static/images/rsz_fsjs_project_5_ls_2.png"]
+            },
+            {
+              "id": "5",
+              "project_name": "Content Scraper",
+              "description": "Node.js command line application that takes data from an ecommerce site and saves it to file in CSV format.",
+              "technologies": ["JavaScript", "HTML", "CSS", "JSON", "Node.js", "NPM", "Git"],
+              "live_link": "",
+              "github_link": "https://github.com/KBROU/FS_js_Tech_Degree_Project_6",
+              "image_urls": ["/static/images/rsz_fsjs_project_6_main.png", "/static/images/rsz_fsjs_project_6_ls.png", "/static/images/rsz_fsjs_project_6_ls_2.png"]
+            }
+        ]
+    }
+}
