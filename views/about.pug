@@ -1,0 +1,52 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a.button-back.expanded(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Kody Broussard
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack JavaScript Developer and Senior Design Engineer
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | I have been working in the areospace industry for 7 years as a design engineer. I currently lead a team that focuses on cabin design, manage subcontractors, and manage suppliers. I have always been interesting in programming, so I decided to add Full Stack JavaScript programming to my tool belt. I am a proficent FSJS programmer who understands the technology stacks needed to complete web applications. 
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li Express
+          li Node.js
+          li JavaScript
+          li CSS
+          li HTLM 
+          li NPM
+          li GitHub
+          li Heroku
+          li Middleware
+          li Pug
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 251-943-8921
+          li kzb801@gmail.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='https://www.linkedin.com/in/kodyzbroussard')
+          span LinkedIn
+        a.button.expanded(href='https://github.com/KBROU') 
+          span GitHub
+        a.button.expanded(href='https://twitter.com/kzb801') 
+          span Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
