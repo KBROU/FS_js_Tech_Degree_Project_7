@@ -17,23 +17,26 @@ const homeRoute = require('./routes');
 const aboutRoute = require('./routes/about');
 const projectRoute = require('./routes/project');
 
+//Setting up route paths
 app.use(homeRoute);
 app.use('/about', aboutRoute);
 app.use('/project', projectRoute);
 
+//Error functions
 app.use((req, res, next) => {
   const err = new Error('Not Found')
   err.status = 404;
   console.log(err);
   next(err);
 });
- 
+
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
   res.render('error');
 });
 
+//Setting up local host 3000
 app.listen(3000, () => {
   console.log('The application is running on localhost:3000!')
 });
