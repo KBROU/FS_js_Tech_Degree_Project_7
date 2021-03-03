@@ -23,7 +23,7 @@
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
     "nodemon": "^1.18.6",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "bugs": {
     "url": "https://github.com/KBROU/FS_js_Tech_Degree_Project_7/issues"
